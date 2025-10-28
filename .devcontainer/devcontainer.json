@@ -1,0 +1,9 @@
+{
+  "name": "Drupal 11 with DDEV (from scratch)",
+  "image": "ddev/ddev-vscode-devcontainer:stable",
+  "postCreateCommand": "echo 'Codespace ready. Run DDEV manually after this.'",
+  "forwardPorts": [8080],
+  "portsAttributes": {
+    "8080": { "label": "Drupal Site", "onAutoForward": "openPreview" }
+  }
+}
